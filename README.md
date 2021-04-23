@@ -1,1 +1,1 @@
-# spt-cc-homework-java-part1
+# spt-cc-homework-java
