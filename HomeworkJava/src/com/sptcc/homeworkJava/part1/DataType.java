@@ -15,7 +15,7 @@ public class DataType {
 		byte myByte = 1;
 		short myShort = 2;
 		int myInt = 3;
-		long myLong = 4;
+		long myLong = 4l;
 		char myChar = '\u0041';
 		float myFloat = 5.67f;
 		double myDouble = 8.9d;
