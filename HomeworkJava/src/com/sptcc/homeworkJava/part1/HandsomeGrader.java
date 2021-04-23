@@ -1,5 +1,6 @@
 package com.sptcc.homeworkJava.part1;
 //SPT CC HOMEWORK JAVA PART1 LAB4
+
 //HANDSOME BIAS GRADER
 
 import java.util.Scanner;
@@ -47,12 +48,14 @@ public class HandsomeGrader {
 	public static void printGrade() {
 		if (isHandsome == true) {
 			grade = "Good";
-		} else if (score < 50) {
+		} else {
+			if (score < 50) {
 			grade = "fail";
 		} else if (score < 80) {
 			grade = "normal";
 		} else {
 			grade = "Good";
+		}
 		}
 		System.out.println("Student grade is: " + grade);
 
