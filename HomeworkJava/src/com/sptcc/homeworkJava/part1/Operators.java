@@ -30,26 +30,24 @@ public class Operators {
 		}
 		System.out.println("prefixDecrement sum is: " + i);
 	}
-	
+
 	public static void conditionalTest() {
 		float myFloat1 = 1.23f;
 		float myFloat2 = 4.56f;
-		
+
 		char myChar1 = '\u0041'; // ASCII HEX
 		char myChar2 = '\u005A'; // ASCII HEX
-		
+
 		// 2.CONDITIONAL OPERATORS: USING && WITH FLOAT
-		if ( (myFloat1 == 1.23f) && (myFloat2 == 4.56f) ) {
+		if ((myFloat1 == 1.23f) && (myFloat2 == 4.56f)) {
 			System.out.println("myFloat1 is 1.23 AND myFloat2 is 4.56");
 		}
 
-		// 3.CONDITIONAL OPERATORS: USING || WITH CHAR	
-		if ( (myChar1 == 65) || (myChar2 == 90) ) {
+		// 3.CONDITIONAL OPERATORS: USING || WITH CHAR
+		if ((myChar1 == 65) || (myChar2 == 90)) {
 			System.out.println(myChar1 + " OR " + myChar2);
 			System.out.println("myChar1 ASCII Dec is 65 OR myChar2 ASCII Dec is 90");
 		}
 	}
-
-
 
 }
