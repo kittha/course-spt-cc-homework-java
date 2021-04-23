@@ -40,6 +40,7 @@ public class StandardGrader {
 			grade = "A"; break;
 		default:
 			System.out.println("ERROR");
+			System.exit(1);
 		}
 		System.out.println("The student grade is: " + grade);
 	}
