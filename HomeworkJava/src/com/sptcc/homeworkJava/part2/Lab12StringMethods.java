@@ -1,8 +1,9 @@
 package com.sptcc.homeworkJava.part2;
-
-import java.util.Scanner;
 //SPT CC HOMEWORK JAVA PART2 LAB12 OL1-7
 //USE STRING METHODS: .equals() .contains() .length() .substring() .trim() .toLowerCase() .toUpperCase()
+
+import java.util.Scanner;
+
 //OL1: USE .equals() TO COMPARE STRING
 //OL2: USE .contains() TO SEARCH WORD IN STRING THEN PRINT SEARCH RESULT
 //OL3: USE .length() THEN PRINT LENGTH
