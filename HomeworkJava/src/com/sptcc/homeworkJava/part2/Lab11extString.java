@@ -1,4 +1,6 @@
 package com.sptcc.homeworkJava.part2;
+//SPT CC HOMEWORK JAVA PART2 LAB11ext
+//BUILD STRING FROM CHAR
 
 public class Lab11extString {
 	public static void main(String [] args) {
