@@ -1,6 +1,6 @@
 package com.sptcc.homeworkJava.part2.MobilePhone;
 
-public class IPhone extends MobilePhone {
+abstract class IPhone extends MobilePhone {
 	
 	public IPhone(int assetId) {
 		super(assetId);

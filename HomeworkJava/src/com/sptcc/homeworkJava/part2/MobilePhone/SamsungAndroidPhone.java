@@ -1,6 +1,6 @@
 package com.sptcc.homeworkJava.part2.MobilePhone;
 
-public class SamsungAndroidPhone extends Android {
+abstract class SamsungAndroidPhone extends Android {
 	public SamsungAndroidPhone(int assetId) {
 		super(assetId);
 	}
