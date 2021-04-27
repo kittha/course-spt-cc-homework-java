@@ -89,11 +89,23 @@ public class EmployeeTestDrive {
 		Programmer gang2 = (Programmer) gang;
 		Ai alphaGo = new Ai("alphaGo","Java");
 		IWebsiteCreator alphaGo2 = alphaGo;
-					
+		System.out.println("********************");
+		
+		System.out.println("#CEO ORDER PROGRAMMER TO CREATE WEBSITE: VIA INTERFACE");
 		ceoo.orderWebsite(gang); 
+		System.out.println("********************");
+		
+		System.out.println("#CEO ORDER PROGRAMMER TO CREATE WEBSITE: VIA DIRECT CONTACT");
 		ceoo.orderWebsite(gang2);
+		System.out.println("********************");
+		
+		System.out.println("#CEO ORDER AI TO CREATE WEBSITE: VIA DIRECT CONTACT");
 		ceoo.orderWebsite(alphaGo);
+		System.out.println("********************");
+		
+		System.out.println("#CEO ORDER AI TO CREATE WEBSITE: VIA INTERFACE");
 		ceoo.orderWebsite(alphaGo2);
+		System.out.println("********************");
 //		
 	}
 

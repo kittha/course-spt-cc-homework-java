@@ -38,6 +38,7 @@ public class Ceo extends Employee implements IWebsiteCreator {
 
 	@Override
 	public void orderWebsite(IWebsiteCreator creator) {
+		System.out.println("CEO order: " + creator + "; to create website");
 		creator.createWebsite("some template", "Codecamp3");
 		
 	}

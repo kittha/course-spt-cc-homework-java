@@ -21,6 +21,13 @@ public class Programmer extends Employee implements IWebsiteCreator {
 	}
 	
 	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+//		return super.toString();
+		return "Programmer employeeId: " + Integer.toString(this.employeeId);
+	}
+
+	@Override
 	public void orderWebsite(IWebsiteCreator creator) {
 		// TODO Auto-generated method stub
 		
