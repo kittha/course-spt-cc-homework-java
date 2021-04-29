@@ -13,6 +13,11 @@ public class HumanTestDrive {
 		dang.setMaritalStatus();
 		System.out.println(dang.myMaritalStatus);
 		dang.chkMaritalStatus();
+		System.out.println("********************");
+		
+		dang.poop();
+		dang.eat();
+		System.out.println("********************");
 	}
 
 }

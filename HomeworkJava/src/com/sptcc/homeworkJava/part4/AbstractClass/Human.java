@@ -10,6 +10,27 @@ final public class Human extends Mammal {
 		System.out.printf("The radius is: %f; The circle area is: %f\n", radius, pi*(radius*radius));
 	}
 	
+	@Override
+	public void breastfeed() {
+		// TODO Auto-generated method stub
+//		super.breastfeed();
+		System.out.println("Can or Can't breastfeed.");
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+//		super.eat();
+		System.out.println("Eat anything in front of me.");
+	}
+
+	@Override
+	public void poop() {
+		// TODO Auto-generated method stub
+//		super.poop();
+		System.out.println("Produce poop 1 ea.");
+	}
+
 	final public void intransigent() {
 		System.out.println("This is final method intransigent() from final class. Don't overrided method or extended class!");
 	}
